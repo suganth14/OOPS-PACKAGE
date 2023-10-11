@@ -3,7 +3,7 @@
 using namespace std;
 void playground::setplayground()
 {
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF PLAYGROUND IN SCHOOL(enter 0 if there is no playground):";
         cin>>num;
@@ -15,7 +15,7 @@ void playground::setplayground()
     }
     if(num>0)
     {
-        while(1)
+        while(true)
         {
             cout<<"\nENTER THE AVERAGE AREA(in sq.m)OF PLAYGROUND IN SCHOOL:";
             cin>>area;
