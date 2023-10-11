@@ -4,8 +4,8 @@ class icse:public school
     float student_fees;
     int max_std;
     int no_passed;
-    char uniform_pattern[15];
-    char medium[15];
+    std::striing uniform_pattern;
+    std:stringchar medium;
 public:
     void seticse();
     void geticse();
