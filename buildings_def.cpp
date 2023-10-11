@@ -3,7 +3,7 @@
 using namespace std;
 void buildings::setbuildings()
 {
-    while(1)
+    while(true)
     {
         cout<<"\nENTER NUMBER OF BUILDING IN SCHOOL:";
         cin>>num;
@@ -13,7 +13,7 @@ void buildings::setbuildings()
         }
         cout<<"\nINVALID NUMBER";
     }
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF FLOORS IN THE BUILDING:";
         cin>>floor;
