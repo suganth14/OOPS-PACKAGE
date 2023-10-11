@@ -4,8 +4,8 @@ class state_board:public school
     float student_fees;
     int max_std;
     int no_passed;
-    char uniform_pattern[15];
-    char medium[15];
+    std::string uniform_pattern;
+    std::string medium;
 public:
     void setstate();
     void getstate();
