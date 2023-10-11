@@ -4,27 +4,24 @@ using namespace std;
 void icse::seticse()
 {
     setdata();
-    while(1)
+    while(true)
     {
         cout<<"\nAVERAGE FEES FOR A STUDENT:";
         cin>>student_fees;
         if(student_fees>0)
         {
+            cout<<"\nINVALIID NUMBER:";
             break;
         }
-        cout<<"\nINVALIID NUMBER:";
-    }
-    while(1)
-    {
+
         cout<<"\nTILL WHICH STANDARD DOES THE SCHOOL OFFER:";
         cin>>max_std;
         if(max_std>0&&max_std<13)
         {
-            break;
+            cout<<"\nINVALID NUMBER:";
         }
-        cout<<"\nINVALID NUMBER:";
     }
-    while(1)
+    while(true)
     {
         if(max_std==12)
         {
