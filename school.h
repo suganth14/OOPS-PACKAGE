@@ -17,7 +17,6 @@ class school
     bus bu;
     playground p;
     club c;
-protected:
     char name[50];
 public:
     void setdata();
