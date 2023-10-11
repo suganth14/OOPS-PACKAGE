@@ -4,7 +4,7 @@ using namespace std;
 void state_board::setstate()
 {
     setdata();
-    while(1)
+    while(true)
     {
         cout<<"\nAVERAGE FEES FOR A STUDENT:";
         cin>>student_fees;
@@ -14,7 +14,7 @@ void state_board::setstate()
         }
         cout<<"\nINVALID NUMBER";
     }
-    while(1)
+    while(true)
     {
         cout<<"\nTILL WHICH STANDARD DOES THE SCHOOL OFFER:";
         cin>>max_std;
@@ -24,7 +24,7 @@ void state_board::setstate()
         }
         cout<<"\nINVALID NUMBER:";
     }
-    while(1)
+    while(true)
     {
         if(max_std==12)
         {
