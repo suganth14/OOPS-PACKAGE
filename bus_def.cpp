@@ -19,7 +19,7 @@ void bus::setbus()
         cin>>colour;
     }
 }
-void bus::getbus()
+void bus::getbus() const
 {
     cout<<"\nNUMBER OF BUSSES IN SCHOOL:"<<num;
     if(num>0)
