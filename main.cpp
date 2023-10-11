@@ -15,7 +15,7 @@ using namespace std;
 
 class School {
 public:
-    char name[30];
+    std::string name;
     // Add common attributes and methods here
 };
 
@@ -37,7 +37,7 @@ public:
 // Function to search for a school by name
 template <class T>
 void SearchSchool(const char* filename) {
-    char name[30];
+    std::string name;
     int z = 0;
     cout << "\nEnter the name of the school you are searching for: ";
     cin.getline(name, 30, '\n');
@@ -63,7 +63,7 @@ void SearchSchool(const char* filename) {
 // Function to delete a school by name
 template <class T>
 void DeleteSchool(const char* filename) {
-    char name[30];
+    std:string name;
     cout << "\nEnter the name of the school to delete: ";
     cin.getline(name, 30, '\n');
 
