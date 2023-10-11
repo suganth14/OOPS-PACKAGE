@@ -3,7 +3,7 @@
 using namespace std;
 void club::setclub()
 {
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF STUDENT CLUBS IN SCHOOL(enter 0 if there is no club):";
         cin>>num;
