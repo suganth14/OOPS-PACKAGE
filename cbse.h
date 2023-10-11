@@ -10,5 +10,5 @@ class cbse:public school
 public:
     void setcbse();
     void getcbse();
-    friend int ret_name(cbse c,std:string name);
+    friend int ret_name(cbse c,std::string name);
 };
