@@ -3,7 +3,6 @@
 using namespace std;
 void school::setdata()
 {
-    char ch;
     cout<<"\nENTER SCHOOL NAME:";
     cin.getline(name,50,'\n');
     cout<<"\nENTER SCHOOL'S ADDRESS:";
