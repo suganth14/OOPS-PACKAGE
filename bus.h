@@ -2,7 +2,7 @@
 class bus
 {
     int num;
-    char colour[15];
+    std::string colour;
 public:
     void setbus();
     void getbus();
