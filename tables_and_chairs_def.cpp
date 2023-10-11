@@ -3,7 +3,7 @@
 using namespace std;
 void tables_chairs::settableschairs()
 {
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF TABLES IN SCHOOL:";
         cin>>num_table;
@@ -13,7 +13,7 @@ void tables_chairs::settableschairs()
         }
         cout<<"\nINVALID NUMBER:";
     }
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF CHAIRS IN SCHOOL:";
         cin>>num_chair;
