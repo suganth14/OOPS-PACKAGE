@@ -53,7 +53,7 @@ void cbse::getcbse()
     cout<<"\nUNIFORM PATTERN OF STUDENTS:"<<uniform_pattern;
     cout<<"\nMEDIUM:"<<medium;
 }
-int ret_name(cbse c,char name[20])
+int ret_name(cbse c,std::string name)
 {
     if(strcmp(c.name,name)==0)
     {
