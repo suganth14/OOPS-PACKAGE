@@ -1,0 +1,165 @@
+# depslib dependency file v1.0
+1588575153 source:s:\oops package\main.cpp
+	<iostream>
+	<conio.h>
+	"cbse.h"
+	"state_board.h"
+	"icse.h"
+	<fstream>
+	<string>
+	<stdlib.h>
+	<cstdio>
+
+1588584812 source:s:\oops package\school_def.cpp
+	"school.h"
+	<iostream>
+
+1588584812 s:\oops package\school.h
+	"buildings.h"
+	"bus.h"
+	"playground.h"
+	"clubs.h"
+	<cstring>
+
+1588578491 source:s:\oops package\cbse_def.cpp
+	"cbse.h"
+	<iostream>
+	<stdio.h>
+
+1588577913 s:\oops package\cbse.h
+	"school.h"
+
+1588578683 source:s:\oops package\state_board_def.cpp
+	"state_board.h"
+	<iostream>
+
+1588577913 s:\oops package\state_board.h
+	"school.h"
+
+1588474454 s:\oops package\buildings.h
+	"classes.h"
+
+1588578683 source:s:\oops package\icse_def.cpp
+	"icse.h"
+	<iostream>
+
+1588577913 s:\oops package\icse.h
+	"school.h"
+
+1588497772 source:s:\oops package\buildings_def.cpp
+	<iostream>
+	"buildings.h"
+
+1588487985 s:\oops package\classes.h
+	"tables_and_chairs.h"
+
+1588577950 source:s:\oops package\classes_def.cpp
+	"classes.h"
+	<iostream>
+
+1588487985 s:\oops package\tables_and_chairs.h
+
+1588488519 s:\oops package\bus.h
+
+1588497779 source:s:\oops package\tables_and_chairs_def.cpp
+	"tables_and_chairs.h"
+	<iostream>
+
+1588585046 source:s:\oops package\bus_def.cpp
+	<iostream>
+	"bus.h"
+
+1588496176 s:\oops package\playground.h
+
+1588585532 source:s:\oops package\playground_def.cpp
+	<iostream>
+	"playground.h"
+
+1588581956 s:\oops package\clubs.h
+
+1588585046 source:s:\oops package\clubs_def.cpp
+	"clubs.h"
+	<iostream>
+
+1588497772 source:s:\2nd sem\oops package\buildings_def.cpp
+	<iostream>
+	"buildings.h"
+
+1588474454 s:\2nd sem\oops package\buildings.h
+	"classes.h"
+
+1588487985 s:\2nd sem\oops package\classes.h
+	"tables_and_chairs.h"
+
+1588487985 s:\2nd sem\oops package\tables_and_chairs.h
+
+1588585046 source:s:\2nd sem\oops package\bus_def.cpp
+	<iostream>
+	"bus.h"
+
+1588488519 s:\2nd sem\oops package\bus.h
+
+1588578491 source:s:\2nd sem\oops package\cbse_def.cpp
+	"cbse.h"
+	<iostream>
+	<stdio.h>
+
+1588577913 s:\2nd sem\oops package\cbse.h
+	"school.h"
+
+1588584812 s:\2nd sem\oops package\school.h
+	"buildings.h"
+	"bus.h"
+	"playground.h"
+	"clubs.h"
+	<cstring>
+
+1588496176 s:\2nd sem\oops package\playground.h
+
+1588581956 s:\2nd sem\oops package\clubs.h
+
+1588577950 source:s:\2nd sem\oops package\classes_def.cpp
+	"classes.h"
+	<iostream>
+
+1588585046 source:s:\2nd sem\oops package\clubs_def.cpp
+	"clubs.h"
+	<iostream>
+
+1588578683 source:s:\2nd sem\oops package\icse_def.cpp
+	"icse.h"
+	<iostream>
+
+1588577913 s:\2nd sem\oops package\icse.h
+	"school.h"
+
+1588575153 source:s:\2nd sem\oops package\main.cpp
+	<iostream>
+	<conio.h>
+	"cbse.h"
+	"state_board.h"
+	"icse.h"
+	<fstream>
+	<string>
+	<stdlib.h>
+	<cstdio>
+
+1588577913 s:\2nd sem\oops package\state_board.h
+	"school.h"
+
+1588585532 source:s:\2nd sem\oops package\playground_def.cpp
+	<iostream>
+	"playground.h"
+
+1588584812 source:s:\2nd sem\oops package\school_def.cpp
+	"school.h"
+	<iostream>
+
+1588578683 source:s:\2nd sem\oops package\state_board_def.cpp
+	"state_board.h"
+	<iostream>
+
+1588497779 source:s:\2nd sem\oops package\tables_and_chairs_def.cpp
+	"tables_and_chairs.h"
+	<iostream>
+
