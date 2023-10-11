@@ -13,7 +13,7 @@ void school::setdata()
     cin.getline(principle,20,'\n');
     cout<<"\nYEAR STARTED:";
     cin>>year;
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF STUDENTS:";
         cin>>num_stu;
@@ -23,7 +23,7 @@ void school::setdata()
         }
         cout<<"\nINVALID NUMBER";
     }
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF TEACHERS:";
         cin>>num_teach;
@@ -33,7 +33,7 @@ void school::setdata()
         }
         cout<<"\nINVALID NUMBER:";
     }
-    while(1)
+    while(true)
     {
         cout<<"\nENTER SCHOOL'S NET WORTH AMOUNT:";
         cin>>networth;
