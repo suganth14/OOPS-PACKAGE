@@ -3,7 +3,7 @@
 using namespace std;
 void classes::setclasses()
 {
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF CLASSROOMS IN SCHOOL:";
         cin>>num;
@@ -13,7 +13,7 @@ void classes::setclasses()
         }
         cout<<"\nINVALID NUMBER:";
     }
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE AVERAGE AREA(in sq.m) OF EACH CLASS:";
         cin>>area;
