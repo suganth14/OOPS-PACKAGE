@@ -25,7 +25,8 @@ void cbse::setcbse()
         }
         cout<<"\nINVALID NUMBER:";
     }
-    while(1)
+    no_passed = 0;
+    while(true)
     {
         if(max_std==12)
         {
@@ -36,11 +37,6 @@ void cbse::setcbse()
                 break;
             }
             cout<<"\nINVALID NUMBER:";
-        }
-        else
-        {
-            no_passed=0;
-            break;
         }
     }
     cout<<"\nENTER UNIFORM PATTERN OF STUDENTS:";
