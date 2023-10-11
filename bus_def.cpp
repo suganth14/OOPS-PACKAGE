@@ -3,7 +3,7 @@
 using namespace std;
 void bus::setbus()
 {
-    while(1)
+    while(true)
     {
         cout<<"\nENTER THE NUMBER OF BUSSES IN SCHOOL(enter 0 if there are no busses):";
         cin>>num;
