@@ -19,7 +19,7 @@ void club::setclub()
         cin>>environment_club;
     }
 }
-void club::getclub()
+void club::getclub() const
 {
     cout<<"\nNUMBER OF CLUBS IN SCHOOL:"<<num;
     if(num>0)
