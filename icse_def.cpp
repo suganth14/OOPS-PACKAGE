@@ -33,11 +33,6 @@ void icse::seticse()
             }
             cout<<"\nINVALID NUMBER:";
         }
-        else
-        {
-            no_passed=0;
-            break;
-        }
     }
     cout<<"\nENTER UNIFORM PATTERN OF STUDENTS:";
     cin>>uniform_pattern;
