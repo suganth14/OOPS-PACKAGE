@@ -6,10 +6,10 @@
 #include<cstring>
 class school
 {
-    char correspondent[20];
-    char principle[20];
+    std::string correspondent;
+    std::string principle;
     double networth;
-    char address[70];
+    std::string address;
     int year;
     int num_stu;
     int num_teach;
@@ -17,7 +17,7 @@ class school
     bus bu;
     playground p;
     club c;
-    char name[50];
+    std::string name;
 public:
     void setdata();
     void getdata();
