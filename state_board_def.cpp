@@ -51,7 +51,7 @@ void state_board::getstate()
     cout<<"\nUNIFORM PATTERN OF STUDENTS:"<<uniform_pattern;
     cout<<"\nMEDIUM:"<<medium;
 }
-int ret_name(state_board s,char name[20])
+int ret_name(state_board s,std::string name)
 {
     if(strcmp(s.name,name)==0)
     {
