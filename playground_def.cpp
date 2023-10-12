@@ -27,7 +27,7 @@ void playground::setplayground()
         }
     }
 }
-void playground::getplayground()
+void playground::getplayground() const
 {
     cout<<"\nNUMBER OF PLAYGROUND IN SCHOOL:"<<num;
     if(num>0)
