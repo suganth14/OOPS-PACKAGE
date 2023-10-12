@@ -5,9 +5,9 @@ class icse:public school
     int max_std;
     int no_passed;
     std::striing uniform_pattern;
-    std:stringchar medium;
+    std::stringchar medium;
 public:
     void seticse();
     void geticse();
-    friend int ret_name(icse i,char name[20]);
+    friend int ret_name(icse i,std::string name);
 };
