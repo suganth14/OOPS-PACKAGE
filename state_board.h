@@ -9,5 +9,5 @@ class state_board:public school
 public:
     void setstate();
     void getstate();
-    friend int ret_name(state_board s,char name[20]);
+    friend int ret_name(state_board s,std::string name);
 };
