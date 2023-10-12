@@ -24,7 +24,7 @@ void tables_chairs::settableschairs()
         cout<<"\nINVALID NUMBER";
     }
 }
-void tables_chairs::gettableschairs()
+void tables_chairs::gettableschairs() const
 {
     cout<<"\nNUMBER OF TABLES IN SCHOOL:"<<num_table;
     cout<<"\nNUMBER OF CHAIRS IN SCHOOL:"<<num_chair;
