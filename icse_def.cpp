@@ -48,7 +48,7 @@ void icse::geticse()
     cout<<"\nUNIFORM PATTERN OF STUDENTS:"<<uniform_pattern;
     cout<<"\nMEDIUM:"<<medium;
 }
-int ret_name(icse i,char name[20])
+int ret_name(icse i,std::string name)
 {
     if(strcmp(i.name,name)==0)
     {
